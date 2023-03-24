@@ -5,7 +5,7 @@ console.log(stopBtn);
 
 startBtn.addEventListener('click', onClickBtnStart);
 stopBtn.addEventListener('click', onClickBtnStop);
-timerColorId = null;
+let timerColorId = null;
 
 function onClickBtnStart(e) {
   e.preventDefault();
